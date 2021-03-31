@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 style="font-size:50px; margin: 25px;">Ask The Magic 8 Ball</h1>
+        <p style="font-size:40px; margin: 25px;">Learn </p>
+        <input type="text" id="text" style="margin: 25px;"placeholder="Type Your Question Here..." ></input>
+        <input type="button" id="button" style="margin: 25px;"value="Ask" onclick="displayImage();"></input>
+        </div>
+      </div>
+      <div class="wrapper">
+        <img src="./img/noimg.png" name="eightball" id="eightball" style="height: 50%; width: 50%; display: block; margin: auto;"></img>
+      </div>
+    </div>
+
+    <script src="./js/8ball.js"></script>
+  </body>
+</html>
