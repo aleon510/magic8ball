@@ -22,9 +22,9 @@ const imagesArray = [
   './img/img20.png',
 ];
 
-
 function displayImage() {
   const num = Math.floor(Math.random() * 20); // 0...20
   document.eightball.src = imagesArray[num];
-};
+}
+
 
